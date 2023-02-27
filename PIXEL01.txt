@@ -1,0 +1,25 @@
+Algoritmo "PIXEL01"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 14/02/2023
+Var
+// Seção de Declarações das variáveis 
+  um_numero: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    escreva("Idade AGORA: ")
+    leia(um_numero)
+    se um_numero>50 entao
+        escreval("carcomido, famoso messi dos magos")
+    fimse
+    se um_numero<25 entao
+        escreval("nutela, soca fofo ")
+    fimse
+    se um_numero = 0 entao
+        escreval("padrao, vou me matar :)")
+    fimse
+
+Fimalgoritmo
